@@ -44,7 +44,7 @@ public class AirspaceLayer: MapLayerProtocol, CustomStringConvertible {
     }
     
     public func update() {
-        print(__FUNCTION__)
+        print(#function)
     }
 
 }
